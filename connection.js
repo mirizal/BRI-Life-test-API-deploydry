@@ -4,10 +4,10 @@ const Router = express.Router();
 
 var connectionAbsen = mysql.createPool({
     connectionLimit : 10000000,
-    host     : 'localhost',
-    user     : 'root',
-    password : 'P@ssw0rd',
-    database : 'db_keluarga_berencana',
+    host     : 'den1.mysql4.gear.host',
+    user     : 'testkeluargapil',
+    password : 'Eh7f60c__BsO',
+    database : 'testkeluargapil',
     multipleStatements  :   true
     });
 
